@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hello Sailor !</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<header class="bg-primary text-white py-3">
+	<div class="container d-flex justify-content-between align-items-center">
+		<h1 class="h4 mb-0">Hello Sailor</h1>
+		<nav>
+			<ul class="nav">
+				<li class="nav-item"><a href="#" class="nav-link text-white">Inspection</a></li>
+				<li class="nav-item"><a href="#" class="nav-link text-white">Tarifs</a></li>
+				<li class="nav-item"><a href="#" class="nav-link text-white">Contact</a></li>
+			</ul>
+		</nav>
+	</div>
+	</header>
+
+
+	<div class="bg-custom d-flex justify-content-center align-items-center">
+		<form class="row row-cols-lg-auto g-3 align-items-center">
+			<div class="col-12">
+				<label class="visually-hidden" for="Loc">Localisation</label>
+				<select class="form-select" id="Loc">
+					<option selected>Localisation</option>
+					<option value="1">Brest</option>
+					<option value="2">Paris</option>
+				</select>
+			</div>
+
+			<div class="col-12">
+				<label class="visually-hidden" for="typeBateau">Type de bateau</label>
+				<select class="form-select" id="typeBateau">
+					<option selected>Type de bateau</option>
+					<option value="1">Voilier</option>
+					<option value="2">Moteur</option>
+				</select>
+			</div>
+
+			<div class="col-12">
+				<button type="submit" class="btn btn-primary">Demander une inspection</button>
+			</div>
+		</form>
+	</div>
+	
+	<div class="card border-primary m-3">
+		<div class="card-body">
+		<h5 class="card-title">Qui sont nos Sailadvisors ?</h5>
+		<p class="card-text">Ils sont tous expérimentés dans le domaine du nautisme:</p>
+		<ul>
+			<li>Plaisanciers qualifiés</li>
+			<li>Proffessionnels du nautisme : skipper, mécaniciens, accastilleurs, ...</li>
+			<li>Experts maritimes agréés</li>
+		</ul>
+		<p class="card-text">Une fois recrutés, les spécialistes Sailadvisor suivent une formation détaillée:</p>
+		<ul>
+			<li>A l'utilisation de nos outils.</li>
+			<li>Au processus de l'inspection.</li>
+			<li>A la détéction de vices cachés.</li>
+		</ul>
+		<a href="#" class="btn btn-primary">Demander mon inspection</a>
+		</div>
+	</div>
+	
+	<div class="card border-primary m-3">
+		<div class="card-body">
+		<h5 class="card-title">Devenez Sailadvisor</h5>
+		<p class="card-text">Nous recrutons partout dans le monde !</p>
+		<a href="#" class="btn btn-primary">Devenir Sailadvisor</a>
+	 	</div>
+	</div>
+	
+	<div class="card border-primary m-3">
+		<div class="card-body">
+		<h5 class="card-title">Vous avez une question ?</h5>
+		<p class="card-text">Contactez nous !</p>
+		<a href="#" class="btn btn-primary">06 88 77 66 55</a>
+		</div>
+	</div>
+
+	<footer class="py-5 container">
+	<div class="row justify-content-between">
+		<div class="col-6 col-md-2 mb-3">
+			<ul class="nav flex-column">
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Haut de page</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Inspection</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Tarifs</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+				<li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">A propos</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-5 offset-md-1 mb-3">
+		<form>
+			<h5>Inscrivez-vous à notre newsletter</h5>
+			<p>Recevez chaque mois les dernières nouvelles de Hello Sailor !</p>
+			<div class="d-flex flex-column flex-sm-row w-100 gap-2">
+				<label for="newsletter1" class="visually-hidden">Email address</label>
+				<input id="newsletter1" type="text" class="form-control" placeholder="Addresse email">
+			<button class="btn btn-primary" type="button">Inscription</button>
+			</div>
+		</form>
+		</div>
+	</div>
+
+	<div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+		<p>&copy; 2024 Hello Sailors, Inc. All rights reserved.</p>
+	</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
